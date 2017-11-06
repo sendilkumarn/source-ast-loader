@@ -1,0 +1,22 @@
+{
+  "name": "source-ast-loader",
+  "version": "0.0.0",
+  "description": "Source to AST loader",
+  "main": "index.js",
+  "author": "Sendil Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "acorn-dynamic-import": "^2.0.2",
+    "loader-utils": "^1.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "memory-fs": "^0.4.1",
+    "webpack": "^3.8.1"
+  }
+}
