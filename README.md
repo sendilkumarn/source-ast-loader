@@ -23,7 +23,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.bundle\.js$/,
+        test: /\.js$/,
         use: 'source-ast-loader'
       }
     ]
