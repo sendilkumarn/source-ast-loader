@@ -5,8 +5,8 @@
     <img width="200" height="200"
       src="https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon.svg">
   </a>
-  <h1>Bundle Loader</h1>
-  <p>Bundle loader for webpack<p>
+  <h1>Source AST Loader</h1>
+  <p>Source AST loader for webpack<p>
 </div>
 
 <h2 align="center">Install</h2>
