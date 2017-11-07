@@ -2,7 +2,7 @@
 
 const acorn = require("acorn-dynamic-import").default;
 
-module.exports = function(source) {
+module.exports = function(source, map) {
 	const comments = [];
 	const ast = acorn.parse(source, {
 		ranges: true,
@@ -16,7 +16,7 @@ module.exports = function(source) {
 	});
 	
 	ast.comments = comments;
-	this.callback(null, source, ast, {
+	this.callback(null, source, map, {
 		webpackAST: ast
 	});
 	return;

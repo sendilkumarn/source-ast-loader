@@ -10,13 +10,16 @@
     "loader-utils": "^1.1.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "webpack-defaults": "webpack-defaults"
   },
   "devDependencies": {
     "babel-jest": "^21.2.0",
     "babel-preset-env": "^1.6.1",
     "jest": "^21.2.1",
+    "loader-runner": "^2.3.0",
     "memory-fs": "^0.4.1",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-defaults": "^1.6.0"
   }
 }
